@@ -11,7 +11,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class FetchStockList_Parameters {
 
-	@Parameters({"stockName","stockName1"})
+	@Parameters({"stockName","stockName2"})
 	@Test
 	public void login(String stockName,String stockName1)
 	{
