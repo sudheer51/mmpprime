@@ -32,7 +32,7 @@ public class HelperClass {
 
 		driver.findElement(usernameID).sendKeys(username);
 		passwordID.sendKeys(password);
-		driver.findElement(By.name("submit")).click();
+		driver.findElement(By.cssSelector("input[value='Sign In']")).click();
 		
 	}
 }
