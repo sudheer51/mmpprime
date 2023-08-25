@@ -38,9 +38,9 @@ public class BaseClass {
 		if(pro.getProperty("browserType").equals("chrome"))
 		{
 			WebDriverManager.chromedriver().setup();
-			ChromeOptions options = new ChromeOptions();
-			options.addArguments("--remote-allow-origins=*");
-			driver = new ChromeDriver(options);
+			//ChromeOptions options = new ChromeOptions();
+			//options.addArguments("--remote-allow-origins=*");
+			driver = new ChromeDriver();
 		}
 		else if(pro.getProperty("browserType").equals("firefox"))
 		{
