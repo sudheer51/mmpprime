@@ -15,7 +15,7 @@ public class FetchStockList {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://money.rediff.com/gainers/bse/daily/groupa?src=gain_lose");
-		String stockDetails[]= {"Infosys","Varun Beverages Ltd."};
+		String stockDetails[]= {"TCS","Varun Beverages Ltd."};
 		SoftAssert sa = new SoftAssert();
 		boolean result = false;
 		for(int i=0 ;i < stockDetails.length;i++)

@@ -10,7 +10,6 @@ import org.testng.asserts.SoftAssert;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class FetchStockList_Parameters {
-
 	@Parameters({"stockName","stockName3"})
 	@Test
 	public void login(String stockName,String stockName1)
