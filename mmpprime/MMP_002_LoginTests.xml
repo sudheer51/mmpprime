@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
   <parameter name="invusername" value="ria" />
-  <parameter name="invpassword" value="Ria1234" />
+  <parameter name="invpassword" value="Ria12345" />
     <classes>
       <class name="org.mmp.patientmodule.tests.MMP_002_LoginTests"/>
     </classes>
